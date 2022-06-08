@@ -4,6 +4,7 @@ https://github.com/skadakar/taky-worldmap
 
 https://hub.docker.com/r/skadakar/taky-worldmap
 
+Map will be available at http://anyip:1880/tak
 
 
 Self contained docker image to use with TAKY to display Ampledatas node-red map
