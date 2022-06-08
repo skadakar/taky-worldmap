@@ -7,5 +7,6 @@ COPY settings.js /data/settings.js
 COPY flows.json /data/flows.json
 
 EXPOSE 1880
+EXPOSE 5000
 
 ENTRYPOINT ["npm", "start", "--cache", "/data/.npm", "--", "--userDir", "/data"]
