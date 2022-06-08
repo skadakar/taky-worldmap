@@ -82,7 +82,7 @@
         "hiderightclick": "false",
         "coords": "deg",
         "showgrid": "true",
-        "path": "/${COT_ENDPOINT}",
+        "path": "${COT_ENDPOINT}",
         "overlist": "DR,CO,RA,DN,HM",
         "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop",
         "mapname": "",
