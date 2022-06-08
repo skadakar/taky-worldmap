@@ -13,6 +13,12 @@ https://ampledata.org/node_red_atak.html
 
 This implimentation should be server agnostic, but only tested on taky.
 
+Supported env variables:
+```
+    environment:
+      - IP=127.0.0.1
+      - PORT=8089
+```
 
 Keys must be provided in pem/crt/key
 
