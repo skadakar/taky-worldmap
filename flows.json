@@ -70,7 +70,7 @@
         "name": "TAKY WORLDMAP",
         "lat": "57.80",
         "lon": "14.70",
-        "zoom": "9",
+        "zoom": "6",
         "layer": "EsriDG",
         "cluster": "",
         "maxage": "",
