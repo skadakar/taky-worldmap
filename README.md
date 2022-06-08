@@ -1,4 +1,4 @@
-### TAKY RTSP Server sidecar
+### TAKY Wordlmap
 
 https://github.com/skadakar/taky-worldmap
 
