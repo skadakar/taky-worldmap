@@ -1,16 +1,14 @@
 ### TAKY RTSP Server sidecar
 
-https://github.com/skadakar/taky-rtsp-sidecar
+https://github.com/skadakar/taky-worldmap
 
-https://hub.docker.com/r/skadakar/taky-rtsp-sidecar
+https://hub.docker.com/r/skadakar/taky-worldmap
 
 
 
-Self contained RTSP missing link for taky, forcing 8554 port usage and RTSP.
+Self contained docker image to use with TAKY to display Ampledatas node-red map
+https://ampledata.org/node_red_atak.html
 
-It will also keep track of peoples last locations and attempt to match locations of videofeeds to users with the same name.
-
-Bob1 will be given the same location as rtsp://example.com/Bob1
 
 This implimentation should be server agnostic, but only tested on taky.
 
@@ -23,10 +21,3 @@ They must be attached to the container like so:
       - /whatever/server.pem:/data/certs/server.pem
       - /whatever/server.key:/data/certs/server.key
 ```
-
-### Bonus feature!
-
-Add `del`as a remark to any marker you want gone. For a better version of this check forcedelete from Hayt here:
-
-https://drive.google.com/drive/folders/1o8tsalgxUGxdg2HiDw5xVu_-bnr63F3d?usp=sharing
-
