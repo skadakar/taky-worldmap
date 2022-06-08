@@ -9,7 +9,6 @@ services:
     image: skadakar/taky-worldmap:latest
     ports:
       - "1880:1880"
-      - "5000:5000"
     environment:
       - IP=127.0.0.1
       - PORT=8089
