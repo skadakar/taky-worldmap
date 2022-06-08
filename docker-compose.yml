@@ -2,7 +2,7 @@ version: "3.7"
 services:
 #NODE-RED
    node-red:
-    container_name: node-red
+    container_name: taky-worldmap
     user: "1000"
     network_mode: host
     restart: unless-stopped
