@@ -13,6 +13,8 @@ https://ampledata.org/node_red_atak.html
 
 This implementation should be server agnostic, but only tested on taky.
 
+Overwrite settings by attaching config files to the /data/ folder, as with normal node-red docker. 
+
 Supported env variables:
 ```
     environment:
