@@ -11,13 +11,14 @@ Self contained docker image to use with TAKY to display Ampledatas node-red map
 https://ampledata.org/node_red_atak.html
 
 
-This implimentation should be server agnostic, but only tested on taky.
+This implementation should be server agnostic, but only tested on taky.
 
 Supported env variables:
 ```
     environment:
       - COT_IP=127.0.0.1
       - COT_PORT=8089
+      - COT_ENDPOINT=/tak
 ```
 
 Keys must be provided in pem/crt/key

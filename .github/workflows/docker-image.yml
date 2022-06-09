@@ -33,5 +33,5 @@ jobs:
       - name: build the image
         run: |
           docker buildx build \
-          --tag securitybits/taky-worldmap:latest \
+          --tag skadakar/taky-worldmap:latest \
           --platform linux/amd64 . --push
